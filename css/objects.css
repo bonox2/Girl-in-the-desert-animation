@@ -1,0 +1,90 @@
+.SignArrow{
+    width: 84px;
+    height: 87px;
+    background-image: url('../img/desert/png/Objects/SignArrow.png');
+    left: 20px;
+    bottom: 384px;
+  }
+  .cactus-1{
+    width: 86px;
+    height: 96px;
+    background-image: url('../img/desert/png/Objects/Cactus\ \(3\).png');
+    left: 277px;
+    bottom: 237px;
+  }
+  .skeleton{
+    width: 150px;
+    height: 51px;
+    background-image: url('../img/desert/png/Objects/Skeleton.png');
+    left: 690px;
+    bottom: 33px;
+  }
+  .cactus-2{
+    width: 108px;
+    height: 111px;
+    background-image: url('../img/desert/png/Objects/Cactus\ \(1\).png');
+    left: 884px;
+    bottom: 40px;
+  }
+  .SignArrow-6{
+    width: 84px;
+    height: 87px;
+    background-image: url('../img/desert/png/Objects/SignArrow.png');
+    left: 640px;
+    bottom: 180px;
+    transform: rotate(90deg);
+  }
+  .big-tree{
+    width: 313px;
+    height: 260px;
+    background-image: url('../img/desert/png/Objects/Tree.png');
+    left: 200px;
+    bottom: 510px;
+  }
+  .big-tree{
+    width: 313px;
+    height: 260px;
+    background-image: url('../img/desert/png/Objects/Tree.png');
+    left: 200px;
+    bottom: 510px;
+  }
+  .grass{
+    width: 102px;
+    height: 50px;
+    background-image: url('../img/desert/png/Objects/Grass\ \(2\).png');
+    left: 200px;
+    bottom: 510px;
+  }
+  .grass2{
+    width: 102px;
+    height: 50px;
+    background-image: url('../img/desert/png/Objects/Grass\ \(2\).png');
+    left: 420px;
+    bottom: 510px;
+  }
+  .nameplate{
+    width: 85px;
+    height: 88px;
+    background-image: url('../img/desert/png/Objects/Sign.png');
+    right: 660px;
+    bottom: 384px;
+  }
+  .danger{
+    font-size: 16px;
+    right: 668px;
+    bottom: 434px;
+  }
+  .stone{
+    width: 124px;
+    height: 73px;
+    background-image: url('../img/desert/png/Objects/Stone.png');
+    right: 40px;
+    bottom: 384px;
+  }
+  .grass3{
+    width: 102px;
+    height: 50px;
+    background-image: url('../img/desert/png/Objects/Grass\ \(2\).png');
+    right: 130px;
+    bottom: 384px;
+  }

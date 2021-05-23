@@ -1,0 +1,113 @@
+@import "reset.css";
+@import "base.css";
+@import "tiles.css";
+@import "tiles-up.css";
+@import "objects.css";
+
+.girl{
+  width: 128px;
+  height: 127px;
+  
+}
+.girl.move-animated{
+  background-size:  auto 127px;
+  z-index: 10;
+  position: absolute;
+  bottom:376px;
+  left: 10px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url('../img/Runner/sprites/Run-sprites.png');
+  animation: action-animation 1s 2s steps(7) infinite, move 7s 2s linear infinite;
+}
+@keyframes action-animation{
+  100%{
+    background-position-x: -1052px;
+  }
+}
+
+@keyframes move{
+  0%{
+    left:0;
+    bottom:376px;
+  }
+  5.8%{
+    left:128px;
+    bottom:376px;
+  }
+  11.6%{
+    left:128px;
+    bottom:510px;
+  }
+  23.2%{
+    left:384px;
+    bottom:510px;
+  }
+  29%{
+    left:384px;
+    bottom:376px;
+  }
+  34.8%{
+    left:512px;
+    bottom:376px;
+  }
+  40.6%{
+    left:640px;
+    bottom:376px;
+  }
+  52.2%{
+    left:640px;
+    bottom:128px;
+  }
+  58%{
+    left:640px;
+    bottom:30px;
+  }
+  69.6%{
+    left: 896px;
+    bottom:30px;
+  }
+  75.4%{
+    left: 896px;
+    bottom:174px;
+  }
+  81.2%{
+    left: 896px;
+    bottom:376px;
+  }
+  87%{
+    left: 1024px;
+    bottom:376px;
+  }
+  92.8%{
+    left: 1180px;
+    bottom:376px;
+  }
+  100%{
+    left: 1180px;
+    bottom:376px;
+  }
+}
+
+
+
+.elements *{
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.desert{
+  position: relative;
+  width: 1280px;
+  height: 960px;
+  margin: 100px auto;
+  background: url('../img/desert/png/BG.png') 0 0;
+  /* background: url('../img/desert/desert-ready.jpg') no-repeat 0 0; */
+  /* animation: desert-move 2s linear infinite; */
+}
+/* @keyframes desert-move{
+  100%{
+    background-position-x: -1280px;
+  }
+} */
+
+

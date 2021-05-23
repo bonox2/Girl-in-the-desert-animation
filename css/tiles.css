@@ -1,0 +1,169 @@
+/* Нижняя часть */
+.blok-1{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/2.png');
+    left: 0;
+    bottom: 256px;
+  }
+  .blok-1-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 0;
+    bottom: 128px;
+  }
+  .foundation-1{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 0;
+    bottom: 0;
+  }
+  .blok-2{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/3.png');
+    left: 128px;
+    bottom: 256px;
+  }
+  .blok-2-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/10.png');
+    left: 128px;
+    bottom: 128px;
+  }
+  .foundation-2{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 128px;
+    bottom: 0;
+  }
+  .blok-3{
+    width: 128px;
+    height: 93px;
+    background-image: url('../img/desert/png/Tile/2.png');
+    left: 256px;
+    bottom: 164px;
+  }
+  .blok-3-under{
+    width: 128px;
+    height: 38px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 256px;
+    bottom: 128px;
+  }
+  .foundation-3{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 256px;
+    bottom: 0;
+  }
+  .blok-4{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/1.png');
+    left: 384px;
+    bottom: 256px;
+  }
+  .blok-4-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/8.png');
+    left: 384px;
+    bottom: 128px;
+  }
+  .foundation-4{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    left: 384px;
+    bottom: 0;
+  }
+  .blok-5{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/3.png');
+    left: 512px;
+    bottom: 256px;
+  }
+  .blok-5-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/6.png');
+    left: 512px;
+    bottom: 128px;
+  }
+  .foundation-5{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/10.png');
+    left: 512px;
+    bottom: 0;
+  }
+  .blok-6-down{
+    width: 128px;
+    height: 40px;
+    background-image: url('../img/desert/png/Tile/11.png');
+    left: 640px;
+    bottom: 0;
+  }
+  .blok-7-down{
+    width: 128px;
+    height: 40px;
+    background-image: url('../img/desert/png/Tile/2.png');
+    left: 768px;
+    bottom: 0;
+  }
+  .blok-8-down{
+    width: 128px;
+    height: 40px;
+    background-image: url('../img/desert/png/Tile/7.png');
+    right: 256px;
+    bottom: 0;
+  }
+  .blok-9{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/1.png');
+    right: 128px;
+    bottom: 256px;
+  }
+  .blok-9-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/8.png');
+    right: 128px;
+    bottom: 128px;
+  }
+  .foundation-9{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/8.png');
+    right: 128px;
+    bottom: 0;
+  }
+  .blok-10{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/2.png');
+    right: 0;
+    bottom: 256px;
+  }
+  .blok-10-down{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    right: 0;
+    bottom: 128px;
+  }
+  .foundation-10{
+    width: 128px;
+    height: 128px;
+    background-image: url('../img/desert/png/Tile/5.png');
+    right: 0;
+    bottom: 0;
+  }

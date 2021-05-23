@@ -1,0 +1,68 @@
+/* Верхняя часть */
+
+/* 1платформа */
+.blok-2-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/14.png");
+  left: 128px;
+  bottom: 384px;
+}
+.blok-3-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/15.png");
+  left: 256px;
+  bottom: 384px;
+}
+.blok-4-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/16.png");
+  left: 384px;
+  bottom: 384px;
+}
+/* 2платформа */
+.blok-5-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/14.png");
+  right: 512px;
+  bottom: 256px;
+}
+.blok-6-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/15.png");
+  right: 384px;
+  bottom: 256px;
+}
+.blok-7-up {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/desert/png/Tile/16.png");
+  right: 256px;
+  bottom: 256px;
+}
+.blok-7-up-down {
+    width: 128px;
+    height: 128px;
+    background-image: url("../img/desert/png/Tile/14.png");
+    right: 256px;
+    bottom: 109px;
+  }
+
+.transform {
+  animation: hide 7s linear 2s infinite;
+}
+@keyframes hide{
+  40.5999999%{
+    opacity: 1;
+  }
+  40.6%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}

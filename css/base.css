@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+  .container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a,span,::before,::after{
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+}
